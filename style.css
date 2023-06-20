@@ -1,0 +1,220 @@
+body {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 30rem) {
+  .gallery {
+    width: min(90%, 500px;)
+    margin-inline: auto;
+  }
+  
+  .background {
+    height: auto;
+  }
+
+  .logo img {
+    display: none;
+  }
+  .header {
+    margin: auto;
+  }
+  .Navbar {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .nav {
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arvo";
+  height: 15.625rem;
+  width: 100%;
+}
+
+.logo img {
+  width: 18.75rem;
+  height: auto;
+}
+
+.Title {
+  letter-spacing: 0.625rem;
+}
+
+.background {
+  background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  height: 37.5rem;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.splash {
+  background: white;
+  text-align: center;
+  width: 100%;
+  font-family: "Lato";
+}
+
+.nav {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+  font-family: "Lato";
+}
+ul li {
+    transition: ease .5s;
+}
+ul {
+  list-style: none;
+}
+
+ul li:hover {
+  background-color: #F5B041;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  color: white;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  text-align: center;
+}
+h2 {
+  color: #F5B041;
+  font-family: "Arvo";
+}
+
+h2 {
+  color: #F5B041;
+  font-family: "Arvo";
+}
+
+p {
+  font-family: "Lato";
+  font-style: italic;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 5%;
+}
+.destinations {
+  display: flex;
+  width: 25rem;
+  height: 25rem;
+  background-image: url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1121&q=80");
+  background-size: cover;
+  justify-content: center;
+  align-items: end;
+  transition: ease 1s;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.flights {
+  display: flex;
+  width: 25rem;
+  height: 25rem;
+  background-image: url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+  justify-content: center;
+  align-items: end;
+  transition: ease 1s;
+  flex-shrink: 1;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.hotels {
+  width: 25rem;
+  height: 25rem;
+  background-image: url("https://images.unsplash.com/photo-1568084680786-a84f91d1153c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: ease 1s;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.d {
+  background: #F5B041;
+  width: 100%;
+  text-align: center;
+  opacity: 95%;
+  transition: ease 2s;
+}
+.destination {
+  color: white;
+}
+
+
+.destinations:hover {
+  height: 28.125rem;
+  width: 28.125rem;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.flights:hover {
+  height: 28.125rem;
+  width: 28.125rem;
+  opacity: 50%;
+  cursor: pointer;
+}
+.hotels:hover {
+  height: 28.125rem;
+  width: 28.125rem;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.Footer {
+  background-color: #F5B041;
+  height: 9.375rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: "Arvo";
+  color: white;
+  opacity: 90%;
+  font-weight: 300;
+}
